@@ -148,6 +148,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "genpay"
+version = "0.0.1"
+dependencies = [
+ "clap",
+ "nom",
+ "rustyline",
+ "rustyline-derive",
+]
+
+[[package]]
 name = "getrandom"
 version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -215,16 +225,6 @@ name = "minimal-lexical"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "68354c5c6bd36d73ff3feceb05efa59b6acb7626617f4962be322a825e61f79a"
-
-[[package]]
-name = "monkey-rust"
-version = "0.5.0"
-dependencies = [
- "clap",
- "nom",
- "rustyline",
- "rustyline-derive",
-]
 
 [[package]]
 name = "nibble_vec"

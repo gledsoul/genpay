@@ -1,12 +1,12 @@
-extern crate monkey_lib;
+extern crate genpay_lib;
 extern crate nom;
 extern crate rustyline;
 extern crate rustyline_derive;
 
-use monkey_lib::evaluator::*;
-use monkey_lib::lexer::token::*;
-use monkey_lib::lexer::*;
-use monkey_lib::parser::*;
+use genpay_lib::evaluator::*;
+use genpay_lib::lexer::token::*;
+use genpay_lib::lexer::*;
+use genpay_lib::parser::*;
 use nom::Err;
 use rustyline::completion::{Completer, FilenameCompleter, Pair};
 use rustyline::config::OutputStreamType;
@@ -110,7 +110,7 @@ fn main() -> rustyline::Result<()> {
     }
 
     println!();
-    println!("This is the monkey language repl v0.5.0");
+    println!("This is the GenPay language repl v0.0.1");
     println!("Press Ctrl-D or enter \"quit\" to exit.");
     println!();
 

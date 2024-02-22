@@ -1,19 +1,19 @@
 [package]
-name = "monkey-rust"
-version = "0.5.0"
-authors = ["Jérôme Mahuet <jerome.mahuet@gmail.com>"]
+name = "genpay"
+version = "0.0.1"
+authors = ["Gledson Joaquim Lopes <gledsoul@gmail.com>"]
 edition = "2021"
 
 [lib]
-name = "monkey_lib"
-path = "lib/monkey.rs"
+name = "genpay_lib"
+path = "lib/genpay.rs"
 
 [[bin]]
-name = "monkey_repl"
+name = "genpay_repl"
 path = "repl/main.rs"
 
 [[bin]]
-name = "monkey_exe"
+name = "genpay_exe"
 path = "src/main.rs"
 
 [dependencies]

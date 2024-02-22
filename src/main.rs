@@ -1,12 +1,12 @@
-extern crate monkey_lib;
+extern crate genpay_lib;
 #[macro_use]
 extern crate clap;
 extern crate nom;
 
-use monkey_lib::evaluator::*;
-use monkey_lib::lexer::token::*;
-use monkey_lib::lexer::*;
-use monkey_lib::parser::*;
+use genpay_lib::evaluator::*;
+use genpay_lib::lexer::token::*;
+use genpay_lib::lexer::*;
+use genpay_lib::parser::*;
 use nom::Err;
 use std::fs::File;
 use std::io::prelude::*;
